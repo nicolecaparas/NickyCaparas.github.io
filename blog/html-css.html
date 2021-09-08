@@ -1,27 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Stories and Legends (PAGE title) </title>
-    <meta charset="UTF-8">
-    <link href="/styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-    <h1>The Story of Te Houtaewa (PAGE heading)</h1>
-    <h2>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em> (Optional SUB title) </h2>
-    <h3>10 November 2010</h3>
-    
-    <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
-    </p>
-    <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
-    </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
-    </p>
-    
-    <!-- this is a comment. -->
-  
-  </body>
+
+<head>
+    <link rel="stylesheet" href="/styles/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <title>Nicky Caparas Blog Post</title>
+</head>
+
+<body>
+    <header>
+        <div id="div_head">
+            <img id="logo" src="/images/NickyLogo.png" />
+        </div>
+        <nav>
+            <a href="/index.html" target="_blank">HOME</a>
+            <a href="" target="_blank">ABOUT ME</a>
+            <a href="" target="_blank">SERVICES</a>
+            <a href="" target="_blank">CONTACT</a>
+        </nav>
+    </header>
+    <div id="div_outerbox">
+        <article>
+            <div id="div_innerbox">
+                <h2>Sprint 2</h2>
+                <p class="fancy-font"><strong>Topic: </strong><a href="/blog/identity-values.html" target="_blank">Identity, Values and Strengths</a>
+                    <a href="/blog/learning-plan.html" target="_blank">&nbsp;Learning Plan</a></p>
+                <h3>What is the difference between Margin, Border, and Padding?</h3>
+                <p>The border is the layer of the HTML/CSS element that sits between margin and padding. By default, the
+                    border does not have any width, but you can set one with the border property.
+                <p>Margin and padding are always parts of an element, even if there’s no visible border. This image
+                    below illustrates such a case:</p>
+                <br>
+                <img id="blog1image" src="/images/MarginBorderPadding.png" />
+                <p>To set the same margin value on all four sides of an element, use the margin property.</p>
+                <p>To set the margin for specific sides of an element,
+                    use the <strong>margin-top</strong>,<br><strong>margin-right</strong>,<strong>margin-bottom</strong>,and
+                    <strong>margin-left</strong> properties.
+                </p>
+                <table>
+                    <th>HTML Example:</th>
+                    <th>CSS Example:</th>
+                    <tr>
+                        <td><img id="blog2image" src="/images/HTML.png" alt="HTML sample"></td>
+                        <td><img id="blog3image" src="/images/CSS.png" alt="CSS sample"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Results:</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><img id="blog4image" src="/images/marginscale.png"></td>
+                    </tr>
+                </table>
+                <p>Like with margins, padding has four sides to be declared: top, right, bottom, and left.</p>
+                <p>To set padding on all sides, use the shorthand property padding.<br> 
+                   To set padding for a specific side, use the <strong>padding-top</strong>,<strong>padding-right</strong>,<br><strong>padding-bottom</strong>, and <strong>padding-left</strong> properties.</p>
+                   <table>
+                    <th>HTML Example:</th>
+                    <th>CSS Example:</th>
+                    <tr>
+                        <td><img id="blog2image" src="/images/HTMLPadding.png" alt="HTML sample"></td>
+                        <td><img id="blog3image" src="/images/CSSPadding.png" alt="CSS sample"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Results:</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><img id="blog4image" src="/images/paddingscale.png"></td>
+                    </tr>
+                </table>
+                <p>You can also specify the margin & padding property with two, three, or four values<br> depending on the sides you want to apply margins to.<br> 
+                    If you want even margins or padding on every side, you’ll only need to apply one value. Otherwise, the order of the values is important:</p>
+                <table style="max-width:90%;">
+                    <tr>
+                        <td><li>Two values apply to the top and bottom, then right and left.</li></td>
+                    </tr>
+                    <tr>
+                        <td><li>Three values apply to the top, then right and left, then bottom.</li></td>
+                    </tr>
+                    <tr>
+                        <td><li>Four values apply to the top, then right, then bottom, then left.</li></td>
+                    </tr>
+                </table>
+                <p>In conclusion, margin, border, and padding go hand-in-hand when it comes to designing your website.<br>
+                All of these properties help in making a website more breathable, readable, and appealing, when configured correctly.</p>
+</body>
+
 </html>
