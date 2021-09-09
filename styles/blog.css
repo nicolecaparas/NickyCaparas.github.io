@@ -76,6 +76,7 @@ article a{
     color:#5d633d;
     text-align:justify;
     text-decoration: underline;
+    font-size:22px;
 }
 
 /*Image*/
@@ -107,4 +108,5 @@ article a{
 
 .fancy-font {
     font-family: 'Hina Mincho', serif;
+    font-size: 22px;
 }

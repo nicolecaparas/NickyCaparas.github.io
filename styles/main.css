@@ -1,3 +1,28 @@
+/*Blog Body*/
+h2{
+    font-family:'Allison', cursive;
+    font-size: 65px;
+    color:#5d633d;
+}
+h3{
+    font-family: 'Hina Mincho', serif;
+    font-size: 30px;
+    line-height: 1em;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: left;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    max-width: 75%;
+    text-align: left;
+    padding-right: 2em;
+    padding-left: 2em;
+    background-color:#f6f4ea;
+}
 /*Div*/
 #div_head{
     background-color: #c68d45;
@@ -5,6 +30,17 @@
     display: flex;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+#div_outerbox{
+    background-color:#f6f4ea;
+    margin: 0 auto;
+    max-width: 850px; 
+}
+
+#div_innerbox{
+    border: 1px solid #5d633d;
+    margin-top: 2em;
+    padding: 2em;
 }
 
 #intro {
@@ -18,7 +54,9 @@
 
 #intro > .image {
     float: left;
-    background-color:#5d633d;
+    background-color: #5d633d;
+    text-align: center;
+    padding: 3em 0;
 }
 
 #intro > .text {
@@ -57,32 +95,91 @@ nav a:active{
     color:black;
     text-decoration: none;
 }
+.clear {
+    clear: both;
+}
 
-/*button*/
-p a,
-p a:link, 
-p a:visited {
-    background-color: #f6f4ea;
-    color: #5d633d;
-    padding: 15px 25px;
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#very-specific {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: black;
+}
+
+/*article Nav*/
+article a{
+    color:#5d633d;
+    text-align:justify;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+/*Home button*/
+.button-link,
+.button-link:link,
+.button-link:visited
+{
     text-align: center;
     text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #f6f4ea;
+    color: #5d633d;
+    padding: 15px 35px;
     display: inline-block;
     border: 2px solid #5d633d;
 }
-
-p a:hover,
-p a:active {
+.button-link,
+.button-link:hover,
+.button-link:active
+{   
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
     background-color: #5d633d;
     color: #f6f4ea;
-  }
-
+    padding: 15px 25px;
+    display: inline-block;
+}
 /*Image*/
 #logo{
     height: 200px;
     margin: 0 auto;
 }
 #nicky{
-    margin: 2em 20em 2em 20em;
     max-height: 50em
+}
+#blog1image{
+    display: flex;
+    max-width: 75%;
+    margin: 0 auto;
+}
+#blog2image{
+    max-height: 50em;
+    max-width: 15em;
+    margin: 0 auto;
+}
+#blog3image{
+    max-height: 50em;
+    max-width: 15em;
+    margin: 0 auto;
+}
+#blog4image{
+    max-height: 50em;
+    max-width: 15em;
+    margin-left: 8em;
+    background-color:#af6231;
+}
+/*Specialfont*/
+.fancy-font {
+    font-family: 'Hina Mincho', serif;
+    font-size: 22px;
 }
