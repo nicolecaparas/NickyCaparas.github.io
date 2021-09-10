@@ -73,7 +73,7 @@ table{
 
 #aboutmeintro{
     position: relative;
-    margin: -400px 0px 0px 800px;
+    margin: -400px 0px 0px 350px;
    
 }
 
@@ -167,7 +167,7 @@ article a{
     max-height: 50em;
     object-fit: cover;
     margin-top:-20em;
-    margin-left:90em;
+    margin-left:60em;
 }
 #blog1image{
     display: flex;
