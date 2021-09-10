@@ -71,6 +71,12 @@ table{
     clear: both;
 }
 
+#aboutmeintro{
+    position: relative;
+    margin: -400px 0px 0px 800px;
+   
+}
+
 /*Nav*/
 nav{
     background-color: #af6231;
@@ -155,7 +161,13 @@ article a{
     margin: 0 auto;
 }
 #nicky{
-    max-height: 50em
+    max-height: 50em;
+}
+#nicky2{
+    max-height: 50em;
+    object-fit: cover;
+    margin-top:-20em;
+    margin-left:90em;
 }
 #blog1image{
     display: flex;
@@ -177,6 +189,12 @@ article a{
     max-width: 15em;
     margin-left: 8em;
     background-color:#af6231;
+}
+#nature{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 /*Specialfont*/
 .fancy-font {
