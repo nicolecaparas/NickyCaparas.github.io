@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <title>HTML Template</title>
+</head>
+
+<body style="background-color:#f6f4ea;">
+    <header>
+        <div id="div_head">
+            <img id="logo" src="../images/NickyLogo.png" />
+        </div>
+        <nav>
+            <a href="../index.html" target="_blank">HOME</a>
+            <a href="../aboutme.html" target="_blank">ABOUT ME</a>
+            <a href="" target="_blank">SERVICES</a>
+            <a href="" target="_blank">CONTACT</a>
+        </nav>
+    </header>
+    <div id="div_outerbox">
+        <article>
+            <div id="div_innerbox">
+                <h2>Sprint 3</h2>
+                <p class="fancy-font"><strong>Topic: </strong><a class="bloglink1" href="./emotional-intelligence.html"
+                        target="_blank">Emotional Intelligence</a>
+                    <a class="bloglink3" href="./blog-main.html" target="_blank">Others</a>
+                </p>
+
+                <h3>JavaScript</h3>
+                <h4>1.) An analogy to describe the differences between HTML and CSS:</h4>
+                <p>Let's say I have sentence, "The yellow bird sang." The bird is the noun in the sentence. Imagine the
+                    noun as the HTML, this language describes what are the things on the page.
+                    Then we have the color yellow which is the adjective. This describes the noun and therefore, like
+                    the adjective, CSS can help us do that by describing the HTML elements, things on the page, make
+                    this and that a different color, increase/decrease the size and many more. To top it all off, we add
+                    JavaScript into the mix as being the verb ('sang') in the sentence: JavaScript describe its action
+                    (i.e. the things
+                    that its doing). In the end, all three help build our website and each has a different
+                    responsibility.
+                </p>
+
+                <h4>2.) Explain control flow and loops using an example process from everyday life, for example 'waking
+                    up' or 'brushing your teeth'. (But not those ones):</h4>
+                <p>
+                    Loops allow us to repeat code if it satisfies a set of condition/s. There are different types of
+                    loops: the <code>for</code> loop, <code>while</code> loop, <code>for..of</code> loop, and the
+                    <code>for..in</code> loop.
+                    If your condition returns <code>true</code>, your code block wll run, and then the condition will be
+                    checked again and if it still returns true, the code block will run again.
+                    It repeats until the condition returns false. It is like wearing your FitBit or Apple Watch: If you
+                    start targeting or reaching your exercise goals it will continue to
+                    count the steps/movements on your watch. The only time it will stop is once you remove your watch or
+                    not even do any movements for that day.
+                </p>
+
+                <h4>3.)Describe what the DOM is and an example of how you might interact with it:</h4>
+                <p>DOM specifies how browsers should create a model of an HTML page and how JavaScript can access and
+                    update the contents of a web page while it is in the browser window.
+                    The DOM has separate set of rules which are implemented by all major browser makes and covers two
+                    primary areas:
+                    <strong>(a) Making a model of the HTML Page;</strong> <strong>(b) Accessing and changing the HTML
+                        page.</strong>
+                </p>
+
+                <p>
+                <p>As you work with the DOM tree you need to:</p>
+                <p>A. Locate the node that represents the element you want to work with:
+                <ul class="dom">
+                    <li>Selecting an individual element node: getElementById() / querySelector();</li>
+                    <li>Selecting multiple elements (nodelists): <code>getElementByClassName()</code>
+                        /<code> getElementByTagName()</code>/
+                        <code>querySelectorAll();</code>
+                    </li>
+                    <li>Traversing between element nodes: <code>parentNode</code>
+                        /<code> firstChild or lastChild</code>/ <code>previousSibling</code> or
+                        <code>nextSibling</code>;
+                    </li>
+                </ul>
+                </p>
+                <p>
+                    B.Use its text content, child elements and attributes.
+                <ul class="dom2">
+                    <li>Access/ update text nodes: <code>nodeValue</code></li>
+                    <li>Work with HTML Content:<code> innerHTML</code>
+                        /<code> textContent</code> / <code>CreateElement()</code>or
+                        <code>CreateTextNode()</code>or
+                        <code>appendChild()</code> /<code>removeChild()</code>
+                    </li>
+                    <li>Access or update attribute values: <code>hasAttribute()</code> /
+                        <code>getAttribute()</code>/ <code>setAttribute()</code> /
+                        <code>removeAttribute()</code>
+                    </li>
+                </ul>
+                </p>
+
+                </p>
+
+                <h4> 4.)Explain the difference between accessing data from arrays and objects:</h4>
+
+                <p>
+                    <strong>Array</strong>
+                    <br>
+                    Array is a special data type in JavaScript. It doesn't just store one value -- it stores a list of
+                    values.
+                    It is an ordered collection of values similar to the songs in a playlist: When you create a playlist
+                    of songs you have different methods you can do like: delete, add, replay, play from start to end
+                    songs and many more.
+                    Just like an array there are different methods as well to access your data:
+                <ul class="arrays">
+                    <li>
+                        push : add an array to end </li>
+                    <li>
+                        pop : remove an array from the end </li>
+                    <li>
+                        shift: remove an array from the start </li>
+                    <li>
+                        unshift: add array to the start </li>
+                    <li>
+                        concat: merge array </li>
+                    <li>
+                        includes: look for a value </li>
+                    <li>
+                        indexOf: searches for a value inside the array and returns its index.<br>Returns -1 if the value
+                        does not exist. </li>
+                    <li>
+                        join: creates a string from a array </li>
+                    <li>
+                        reverse: reverses an array </li>
+                    <li>
+                        slice: copies a portion on an array </li>
+                    <li>
+                        splice: removes/ replaces elements </li>
+                    <li>
+                        sort: sorts an array </li>
+                </ul>
+
+                </p>
+
+                <p>
+                    <strong>Objects</strong>
+                    <br>
+                    Objects are also a special data type in JavaScript. Just like arrays, objects are going to help
+                    store multiple pieces of data together in some sort
+                    of structure. But unlike arrays where the whole point is to order our data, this is not the case
+                    with objects. Instead, our data is stored using what
+                    we call key-value pairs or properties. So imagine if you have a bag of gems with different property
+                    types (like shape, size, color, type, etc.): These pieces of
+                    gems have no order but they are in one bag that are appealing and amazing to look at and its easy to
+                    take remove or add from the bag when you know the type you're looking for.
+                    This is how similar objects are when you store and access data. These data need access key to get
+                    these bits of information with correct label on it.
+
+                </p>
+
+                <h4>5.)Explain what functions are and why they are useful:</h4>
+                <p> Functions allow us to write reusable, modular code. We define a "chunk" of code that we can then
+                    execute at a later point.We use them all the time and its 2-step process which is to "define it" and
+                    then "run with it". A
+                    good analogy would be a washer-dryer combo appliance.
+                    You put in clothes inside of it, and apart from washing the clothes, it also dries them after it
+                    finishes washing them, saving you time.
+                </p>
+
+        </article>
+    </div>
+    <footer>
+        <div style="background-color: #c68d45; padding-top:2em;">
+            <p
+                style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#f6f4ea; text-align: center; padding-bottom:2em;">
+                COPYRIGHT © 2021 | TERMS & CONDITIONS | PRIVACY POLICY</p>
+        </div>
+    </footer>
+</body>
+
+</html>
