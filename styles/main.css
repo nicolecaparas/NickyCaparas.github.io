@@ -199,6 +199,12 @@ article a{
     margin-left: 8em;
     background-color:#af6231;
 }
+#blogimage{
+    max-height: 50em;
+    max-width: 15em;
+    margin-left: 8em;
+    background-color:#af6231;
+}
 #nature{
     width: 100%;
     height: 400px;
@@ -222,6 +228,10 @@ img.headpic-blog4{
     max-width: 30%;
     text-decoration: none;
 }
+img.headpic-blog5{
+    max-width: 30%;
+    text-decoration: none;
+}
 a.linkhead-blog1{
     text-decoration: none;
 }
@@ -229,6 +239,12 @@ a.linkhead-blog2{
     text-decoration: none;
 }
 a.linkhead-blog3{
+    text-decoration: none;
+}
+a.linkhead-blog4{
+    text-decoration: none;
+}
+a.linkhead-blog5{
     text-decoration: none;
 }
 /*Specialfont*/
